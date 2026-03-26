@@ -124,7 +124,7 @@ export default function Settings() {
   const handleForceLogout = async () => {
     await AsyncStorage.removeItem('token');
     await AsyncStorage.removeItem('user');
-    router.replace('/');
+    router.replace('/auth/index2');
   };
 
 

@@ -128,7 +128,7 @@ const Index = () => {
          
           <View style={styles.createAccountRow}>
             <Text style={styles.newText}>New to Docket? </Text>
-            <Pressable onPress={() => router.push("./auth/loginScreen1")}>
+            <Pressable onPress={() => router.push("/auth/loginScreen1")}>
               <Text style={styles.createText}>Create an account</Text>
             </Pressable>
           </View>
